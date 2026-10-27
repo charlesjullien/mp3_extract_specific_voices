@@ -1,0 +1,9 @@
+fastapi>=0.115.6
+uvicorn>=0.34.0
+python-multipart>=0.0.20
+python-dotenv>=1.0.1
+yt-dlp>=2025.10.14
+faster-whisper>=1.2.0
+pyannote.audio>=4.0.0
+pytest>=8.3.0
+httpx2>=2.0.0

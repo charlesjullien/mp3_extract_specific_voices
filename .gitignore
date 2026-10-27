@@ -1,0 +1,40 @@
+# Jeton Hugging Face et réglages locaux
+.env
+.env.*
+!.env.example
+
+# Environnement Python
+.venv/
+venv/
+env/
+
+# Fichiers générés
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Travaux : audio téléchargé, voix extraites, transcriptions
+data/
+
+# Poids des modèles (Hugging Face, Whisper, cache matplotlib)
+models/
+
+# Morceaux temporaires de l'assemblage audio
+*.part.mp3
+*.tmp
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
